@@ -1,0 +1,46 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #f3f3f3;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+article {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+article img {
+    width: 100%;
+    height: auto;
+}
+
+article h2 {
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 20px;
+}
